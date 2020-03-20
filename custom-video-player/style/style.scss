@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Sen:wght@400;700&display=swap');
+
+// global style
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    min-height: 100vh;
+
+    font-family: 'Sen', sans-serif;
+    font-size: 1.6rem;
+    color: white;
+    background-color: rgb(128, 128, 128);
+    margin: 0;
+}
+
+// video styling
+.video__screen {
+    width: 50%;
+
+    background-color: #000 !important;
+    border-radius: 5px 5px 0 0;
+    cursor: pointer;
+}
+
+.video__controls {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 50%;
+
+    background-color: #333;
+    border-radius: 0 0 5px 5px;
+    padding: 1rem;
+}
+
+.video__timestamp {
+    margin-left: 1rem;
+}
+
+//button styling
+.btn {
+    border: none;
+    background: transparent;
+}
